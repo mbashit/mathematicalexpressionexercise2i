@@ -14,7 +14,7 @@ int main()
 	cout << "enter the value of w ";
 	cin >> w;
 
-	y = (x + 3) * pow(5, w) / 7 * (x - 4);
+	y = (x + 3) * pow(5, w) /( 7 * (x - 4));
 	cout << "the result is" << y << endl;
 
 	return 0;
